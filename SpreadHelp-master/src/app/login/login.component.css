@@ -1,0 +1,22 @@
+.login_submit, button , .input{
+  margin-top: 15px;
+}
+#Cat{
+  margin-left: 15px ;
+
+}
+select{
+  size: 20px;
+  padding: 7px;
+  border-bottom-color: #E6E6FA;
+  border-left-color: #E6E6FA;
+  border-right-color: #E6E6FA;
+  border-top-color: #E6E6FA;
+}
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:valid {
+  outline: none;
+}

@@ -1,0 +1,132 @@
+<div class="breadcrumbs_area other_bread">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcrumb_content">
+          <ul>
+            <li><a href=" ">Acceuil</a></li>
+            <li>/</li>
+            <li>Connexion</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--breadcrumbs area end-->
+<!-- customer login start -->
+<div class="customer_login">
+  <div class="container">
+    <div class="row">
+      <!--login area start-->
+      <div class="col-lg-6 col-md-6">
+        <div class="account_form">
+          <h2>Connexion</h2>
+          <form [formGroup] >
+            <div class="input">
+              <label>Nom d'utilisateur <span>*</span></label>
+              <input type="text" formControlName="username"   placeholder="nom d'utilisateur"  class="form-control"  >
+              <div  class="invalid-feedback">
+                <div>Nom d'utilisateur est obligatoire</div>
+              </div>
+            </div>
+            <div class="input">
+              <label>Mot de passe <span>*</span></label>
+              <input type="password" formControlName="password"   placeholder="mot de passe"  class="form-control" >
+              <div  class="invalid-feedback">
+                <div >Mot de passe obligatoire</div>
+              </div>
+            </div>
+            <div class="login_submit">
+              <a>Mot de passe perdu?</a>
+              <label >
+              </label>
+              <button type="submit">Connecter</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--login area start-->
+      <!--register area start-->
+      <div class="col-lg-6 col-md-6">
+        <div class="account_form register">
+          <h2>Inscription</h2>
+          <form >
+            <p>
+              <label>Nom  <span>*</span></label>
+              <input type="text"  name="client.nom" >
+            </p>
+            <p>
+              <label>Prenom  <span>*</span></label>
+              <input type="text" name="client.prenom" >
+            </p>
+
+            <p>
+              <label for="country">Gouvernorat <span>*</span></label>
+              <select class="niceselect_option" name="cuntry" id="country">
+                <option value="2">Ariana</option>
+                <option value="3">Béja</option>
+                <option value="4">Ben Arous</option>
+                <option value="5">Bizerte</option>
+                <option value="6">Gabès</option>
+                <option value="7">Gafsa</option>
+                <option value="8">Jendouba</option>
+                <option value="9">Kairouan</option>
+                <option value="10">Kasserine</option>
+                <option value="11">Kébili</option>
+                <option value="12">Le Kef</option>
+                <option value="13">Mahdia</option>
+                <option value="14">La Manouba</option>
+                <option value="15">Médenine</option>
+                <option value="16">Monastir</option>
+                <option value="17">Nabeul</option>
+                <option value="18">Sfax</option>
+                <option value="19">Sidi Bouzid</option>
+                <option value="20">Siliana</option>
+                <option value="21">Sousse</option>
+                <option value="22">Tataouine</option>
+                <option value="23">Tozeur</option>
+                <option value="24">Tunis</option>
+                <option value="25">Zaghouan</option>
+              </select>
+            </p>
+            <p>
+              <label>Adresse  <span>*</span></label>
+              <input type="text"  name="client.adresse" >
+            </p>
+            <p>
+              <label for="mail">Email  <span>*</span></label>
+              <input type="text"  name="client.email" id="mail" >
+            </p>
+            <p>
+              <label>Mot de passe <span>*</span></label>
+              <input type="password"  name="password" >
+            </p>
+            <p>
+              <label>Confirmation mot de passe <span>*</span></label>
+              <input type="password"  name="confirmPassword" >
+            </p>
+            <p>
+              <label>Télephone  <span>*</span></label>
+              <input type="number"  name="client.phone"  minlength="8" maxlength="8" >
+
+            <p>
+              <label for="Cat">Catégorie  <span>*</span></label>
+
+              <select id="Cat">
+                <option value="asssociation">Association</option>
+                <option value="condidature spontannée">Condidature Spontannée</option>
+                <option value="demande d'aide">Demande d'aide</option>
+              </select>
+            </p>
+            <div class="login_submit">
+              <button type="submit">Register</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--register area end-->
+    </div>
+  </div>
+</div>
+<!-- customer login end -->

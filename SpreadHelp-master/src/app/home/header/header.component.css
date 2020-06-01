@@ -1,0 +1,23 @@
+.header_inner{
+
+  background: #7ecc13;
+}
+.header_top_menu, .dropdown_language , li{
+  font-size: 5px ;
+  color: black;
+  font-style: normal;
+}
+.logo{
+  width: 120px;
+  height: 120px;
+}
+.header_middel{
+  padding: 10px 0;
+  background-color: black;
+}
+.fa-user-circle-o{
+  padding: 5px;
+  font-size: 20px;
+}
+
+
